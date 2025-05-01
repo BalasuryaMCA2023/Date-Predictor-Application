@@ -5,6 +5,7 @@ import PredictionPage from './components/predictpage';
 import NextTaskPage from './components/nexttaskpage';
 import './App.css';
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         
       </Routes>
        <Analytics/>
+      <SpeedInsights/>
     </Router>
   );
 }
