@@ -13,9 +13,10 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/predict" element={<PredictionPage />} />
         <Route path="/nexttask" element={<NextTaskPage />} />
-        <Analytics/>
+       
         
       </Routes>
+       <Analytics/>
     </Router>
   );
 }
